@@ -1,0 +1,22 @@
+.img-box{
+	column-count: 4;
+	column-gap: 10px;
+	width: 80%;
+	margin: auto;
+}
+.image{
+	max-width: 100%;
+	display: block;
+	filter: contrast(100%);
+}
+.image:hover{
+	filter: contrast(200%);
+}
+body{
+	background-color: floralwhite;
+
+}
+h1{
+	text-align: center;
+	border: 3px solid maroon;
+}
